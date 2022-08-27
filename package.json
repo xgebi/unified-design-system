@@ -1,0 +1,23 @@
+{
+  "name": "unified-design-system",
+  "version": "1.0.0",
+  "description": "Design system for three of my applications",
+  "main": "index.js",
+  "scripts": {
+    "watch:base": "sass --watch sass/base/index.scss:dist/base.css",
+    "watch:tusee": "sass --watch --poll sass/tusee/index.scss:dist/tusee.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgebi/unified-design-system.git"
+  },
+  "author": "Sarah Gebauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgebi/unified-design-system/issues"
+  },
+  "homepage": "https://github.com/xgebi/unified-design-system#readme",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}

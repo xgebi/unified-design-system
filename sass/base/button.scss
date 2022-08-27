@@ -1,0 +1,11 @@
+button {
+  padding: $button-padding-vertical $button-padding-horizontal;
+  background: $primary-dark;
+  color: $primary-light;
+  border: 0;
+}
+
+button:active {
+  color: $primary-dark;
+  background: $primary-light;
+}
