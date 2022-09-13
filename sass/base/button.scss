@@ -1,11 +1,81 @@
-button {
-  padding: $button-padding-vertical $button-padding-horizontal;
-  background: $primary-dark;
-  color: $primary-light;
-  border: 0;
+/**
+ * Typography
+ */
+@font-face {
+  font-family: 'Cabin';
+  src: url('Cabin-VariableFont_wdth,wght.ttf') format('ttf');
 }
 
-button:active {
-  color: $primary-dark;
-  background: $primary-light;
+@font-face {
+  font-family: 'Cabin';
+  src: url('Cabin-Italic-VariableFont_wdth,wght.ttf') format('ttf');
+  font-style: italic;
 }
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("Cormorant-VariableFont_wdth,wght.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("Cormorant-Italic-VariableFont_wdth,wght.ttf") format("ttf");
+  font-style: italic;
+}
+
+body {
+  font-family: Cabin, sans-serif;
+  font-size: 20px;
+}
+
+.long-read {
+  font-family: Cormorant, serif;
+}
+
+.web-big {
+  font-size: 9.5rem;
+}
+
+.web-medium {
+  font-size: 6rem;
+}
+
+.web-medium {
+  font-size: 3rem;
+}
+
+
+/**
+ * Buttons
+ */
+.button {
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  background: var(--primary);
+  color: var(--primary-color);
+  border: 0;
+  font-weight: 700;
+  border-radius: .25px;
+}
+
+.button:active {
+  box-shadow: inset 0 .125px .125px rgba(0, 0, 0, 0.25);
+}
+
+.button--secondary {
+  background: var(--secondary);
+}
+
+.button--error {
+  background: var(--error);
+}
+
+.button--warning {
+  background: var(--warning);
+}
+
+/**
+ * Tables
+ */
+
+/**
+ * Forms
+ */
